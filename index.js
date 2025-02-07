@@ -1119,7 +1119,7 @@ function setupSearchWindow (win) {
       const { x, y } = getRandomCoords()
       win.moveTo(x, y)
       win.resizeTo(WIN_WIDTH * 2, WIN_HEIGHT * 2)
-      win.window.location = 'https://www.youtube.com/search?q=' + encodeURIComponent(SEARCHES[searchIndex])
+      win.window.location = 'https://www.google.com/search?q=' + encodeURIComponent(SEARCHES[searchIndex])
 
       searchIndex += 1
       if (searchIndex >= SEARCHES.length) {
